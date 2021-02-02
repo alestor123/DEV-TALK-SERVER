@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for server for dev talk cli",
   "main": "App.js",
+  "bin": {
+    "dev-talk-server":"App.js"
+  },
   "dependencies": {
     "socket.io": "^3.1.0"
   },
